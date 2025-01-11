@@ -1,0 +1,455 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f8f3;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #daf4d9;
+    border-radius: 8px;
+    max-width: 1280px;
+    margin: 50px auto;
+  }
+  
+  .content {
+    max-width: 1280px;
+  }
+  
+  h2 {
+    color: #007f5f;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007f5f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005c46;
+  }
+  
+  .image img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+  }
+  
+
+
+  .quote-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.quote-icon {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ccc;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.quote-content {
+    padding-left: 60px;
+}
+
+.quote-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.quote-designation {
+    font-size: 0.9em;
+    color: #777;
+}
+
+
+  
+  
+  /* body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+   */
+  /* Banner Section */
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .banner-content {
+    max-width: 50%;
+  }
+  
+  .banner-content h1 {
+    font-size: 2.5rem;
+    color: #007BFF;
+  }
+  .az{
+   
+    padding: 50px;
+}
+  .banner-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Vision of Future Section */
+  
+  .vision {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #eef2f3;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    width: 30%;
+    transition: transform 0.3s;
+  }
+  .card1{
+    background: #d6e2b9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    width: 30%;
+    transition: transform 0.3s;
+  }
+  .card2 {
+    background: #e09c9c;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    width: 30%;
+    transition: transform 0.3s;
+  }
+  .card3 {
+    background: #b4b0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    width: 30%;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card img {
+    max-width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .card button {
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+
+
+
+
+  .news-section {
+    max-width: 1280px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #333;
+}
+
+.news-section .intro {
+    text-align: left;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.news-card {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.news-content {
+    flex: 1;
+}
+.news-card.reverse {
+    flex-direction: row-reverse;
+  }
+.news-content h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.news-content .source {
+    font-size: 0.9em;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.news-content .date {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+.meta {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+.meta img {
+    width: 100px;
+  }
+.news-content .description {
+    font-size: 1em;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #218838;
+}
+  /* Recent News Section */
+  /* .news {
+    padding: 20px;
+  }
+  
+  .news-card {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .news-card.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .news-card img {
+    max-width: 40%;
+    margin-right: 20px;
+    border-radius: 8px;
+  }
+  
+  .news-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .meta {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .meta img {
+    width: 100px;
+  } */
+  
+  /* Donate Section */
+  .donate {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+  }
+  .donate input{
+    width:80%;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .donation-cards {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .donation-card {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .donation-card:hover {
+    background: #007BFF;
+    color: white;
+  }
+  
+  /* Newsletter Section */
+  .newsletter {
+    background: #eef2f3;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .newsletter form {
+    margin-top: 10px;
+  }
+  
+  form input, form button {
+    padding: 10px;
+    
+    margin: 5px;
+  }
+  
+  /* Quote Section */
+  .quote {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 20px;
+    font-style: italic;
+  }
+  
+  .quote-icon {
+    font-size: 2rem;
+    color: #007BFF;
+  }
+  .newsletter-container {
+    background-color: #d1f1e0;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1280px;
+    margin: 50px auto;
+  }
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .newsletter-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    width: 70%;
+    outline: none;
+  }
+  
+  .newsletter-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #006d48;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #00593c;
+  }
+  
+  .no-spam {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #000;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #444;
+}
+
+
+  
